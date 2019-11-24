@@ -15,17 +15,32 @@ const Index = ({ data }) => (
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
       <Modal>
-        <video
+        {/* <image
           src="https://i.imgur.com/gzFqNSW.mp4"
           playsInline
           loop
           autoPlay
           muted
-        />
+        /> */}
+        <div className="iframe-container">
+          <iframe
+            title="Mood of the day"
+            // The link below is a hack necssary for looping the video
+            // src="https://www.youtube.com/embed/us5MGEL5W34?version=3&autoplay=1&loop=1&playlist=us5MGEL5W34"
+            // src="https://www.youtube.com/embed/us5MGEL5W34"
+            src="https://www.youtube.com/embed/RoGHVI-w9bE"
+            frameBorder="0"
+            playsInline
+            // accelerometer
+            autoPlay
+            // loop
+            allowFullScreen
+          ></iframe>
+        </div>
       </Modal>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
+    {/* <div style={{ height: '50vh' }} /> */}
     <IOExample />
   </Layout>
 );
@@ -47,6 +62,7 @@ export const query = graphql`
         }
       }
       gallery {
+        endpoint
         title
         copy
         image {

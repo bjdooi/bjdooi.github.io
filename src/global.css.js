@@ -1,14 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
+const { backgroundColor } = require('../site-config');
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-  a, abbr, acronym, address, big, cite, code,
+  p, blockquote, pre,
+  a, abbr, acronym, address, big, cite,
   del, dfn, em, img, ins, kbd, q, s, samp,
   small, strike, strong, sub, sup, tt, var,
   b, u, i, center,
-  dl, dt, dd, ol, ul, li,
+  dl, dt, dd,
   fieldset, form, label, legend,
   table, caption, tbody, tfoot, thead, tr, th, td,
   article, aside, canvas, details, embed,
@@ -21,6 +22,13 @@ export default createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+  }
+
+  h1 {
+    margin-top: 0px;
+  }
+  li {
+    margin-bottom: 10px;
   }
 
   /* HTML5 display-role reset for older browsers */
@@ -38,7 +46,7 @@ export default createGlobalStyle`
     line-height: 1;
     font-size: 1.6rem;
     color: #000;
-    background-color: #fff;
+    background-color: ${backgroundColor};
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -48,19 +56,19 @@ export default createGlobalStyle`
     font-variant-numeric: proportional-nums;
   }
 
-  ol, ul {
-    list-style: none;
-  }
+  // ol, ul {
+  //   list-style: none;
+  // }
 
-  blockquote, q {
-    quotes: none;
-  }
+  // blockquote, q {
+  //   quotes: none;
+  // }
 
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-    content: '';
-    content: none;
-  }
+  // blockquote:before, blockquote:after,
+  // q:before, q:after {
+  //   content: '';
+  //   content: none;
+  // }
 
   table {
     border-collapse: collapse;
@@ -74,9 +82,10 @@ export default createGlobalStyle`
   pre {
     display: block;
     padding: 2rem;
-    margin-top: 4rem;
+    margin-bottom: 2rem;
+    // margin-top: 4rem;
     overflow: auto;
-    font-size: 85%;
+    font-size: 100%;
     line-height: 1.45;
     border-radius: 5px;
     color: ${accent};
@@ -89,6 +98,20 @@ export default createGlobalStyle`
   }
 
   p {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 `;

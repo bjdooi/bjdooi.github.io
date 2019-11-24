@@ -5,6 +5,7 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
+  padding-bottom: 0px;
 
   a {
     color: #757575;

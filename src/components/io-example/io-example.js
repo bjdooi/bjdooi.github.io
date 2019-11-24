@@ -2,6 +2,7 @@ import React from 'react';
 import IO from 'components/io';
 import Title from 'components/title';
 import { Container } from './io-example.css';
+import { Link } from 'gatsby';
 
 // <IO> uses a render prop to pass down `isVisible` and `hasBeenVisible`.
 // In this example, we only care about `isVisible` and reset the styles
@@ -10,9 +11,11 @@ import { Container } from './io-example.css';
 const IOExample = () => (
   <IO rootMargin="-50px">
     {({ isVisible }) => (
-      <Container isVisible={isVisible}>
-        <Title tag="span">IntersectionObserver</Title>
-      </Container>
+      <Link to="/invoice">
+        <Container isVisible={isVisible}>
+          <Title tag="span">Send me money</Title>
+        </Container>
+      </Link>
     )}
   </IO>
 );

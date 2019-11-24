@@ -2,18 +2,27 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Software Engineering",
+    "copy": "Check out some of the things I've worked on",
+    "image": "../images/gallery/research_and_development.png",
+    "endpoint": "/software-engineering"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Complex Systems and Artificial Intelligence Meetup",
+    "copy": "I run a meetup group- here are the slides from some of my old presentations",
+    "image": "../images/gallery/complex_sys_ai.jpg",
+    "endpoint": "/slides"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "Locksmithing",
+    "copy": "Find out information about my locksmithing business if you're ever in need of my services",
+    "image": "../images/gallery/locksmith.jpg",
+    "endpoint": "/locksmith"
+  },
+  {
+    "title": "Miscellaneous",
+    "copy": "I draw, make music, and do a bunch of other artistic things",
+    "image": "../images/gallery/im-an-artist.jpg",
+    "endpoint": "/misc"
   }]
 }

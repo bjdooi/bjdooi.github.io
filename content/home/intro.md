@@ -1,1 +1,1 @@
-An opinionated starter for using Gatsby v2 with React Context, tag-agnostic styled-components, page transitions and scroll events with IntersectionObserver.
+Software Engineer. Electrical Engineer. Locksmith. Public Speaker. Artist. Break Dancer. Nature Nerd. Clean Freak. Jack of all trades.

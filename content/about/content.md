@@ -1,21 +1,33 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
-
 ```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
+# Who am I
+A person whose ultimate goal is to create the next Skynet. However, until then, 
+I guess I can help others and enjoy my careers and hobbies *smirk*.
 
-# To develop
-yarn develop
+# What am I
+Ethnicity: Tongan/Fijian, with a little European mutt mixed in there
+Species: Human(?)
 
-# To build
-yarn build
+# Where am I
+The center of the universe, according to relativity... 
+and most probably at a meetup talking about execution contexts
 
-# To test SSR (for Lighthouse etc.)
-yarn ssr
+# When am I
+Refer to the statement on relativity (above)
 
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
+# Why am I
+42
 ```
+
+Here's my website [from GitHub pages](https://bjdooi.github.io)
+
+LinkedIn: https://www.linkedin.com/in/william-jack-dalessandro-816467104/
+
+Github: https://github.com/bjdooi
+
+Email: [william.dalessandro123@gmail.com]()
+
+Locksmith Email: [williamdalessandrolocksmithing@gmail.com]()
+
+
+<br>
+

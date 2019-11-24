@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
+import { Link } from 'gatsby';
 
 export const Title = styled.span`
   display: block;
@@ -9,10 +10,15 @@ export const Title = styled.span`
 `;
 
 export const Copy = styled.p`
-  color: #757575;
+  color: #757590;
   margin: 0 2rem 2rem;
 
   ${MEDIA.TABLET`
     margin-bottom: 4rem;
   `};
+`;
+
+export const StyledLink = styled(Link)`
+  color: black;
+  text-decoration: none;
 `;
