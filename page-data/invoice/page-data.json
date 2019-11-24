@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-pages-invoice-js","path":"/invoice/","webpackCompilationHash":"d9bdca13e1ab053b01c1","result":{"data":{"invoiceJson":{"title":"Software Engineering","content":{"childMarkdownRemark":{"html":"<h1>Invoice</h1>\n<pre><code>For now this isn't set up, but stay tuned!\n</code></pre>"}}}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
