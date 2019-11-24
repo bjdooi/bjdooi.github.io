@@ -1,11 +1,13 @@
 <p align="center">
   <a href="https://bjdooi.github.io/">
-    <img
+  <h1 align="center">https://bjdooi.github.io/</h1>
+  </a>
+    <!-- <img
       src="https://i.imgur.com/MFWrZSx.png"
       height="80"
       alt="bjdooi-website"
       title="bjdooi-website"
-    />
+    /> -->
   </a>
 </p>
 
